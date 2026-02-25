@@ -1,7 +1,9 @@
-kasky = input("Annetaanko lisää rahaa? ")
+luku = 1
 
-while kasky != "ei":
-    print("annettu kolikko lisää.")
-    kasky = input("Annetaanko lisää rahaa?")
+while luku <= 1000:
+    if luku % 3 == 0:
+        print(luku)
 
-print("Ohjelma päättyy.")
+    luku += 1
+
+print("Valmista tuli!")
