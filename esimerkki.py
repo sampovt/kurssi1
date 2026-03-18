@@ -1,7 +1,3 @@
-kasky = input("Annetaanko lisää rahaa? ")
+nimet = ["Ahmed", "Pekka", "Viivi"]
 
-while kasky != "ei":
-    print("annettu kolikko lisää.")
-    kasky = input("Annetaanko lisää rahaa?")
-
-print("Ohjelma päättyy.")
+print(nimet)
